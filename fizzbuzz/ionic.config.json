@@ -1,0 +1,7 @@
+{
+  "name": "fizzbuzz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

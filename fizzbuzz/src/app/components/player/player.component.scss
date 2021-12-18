@@ -1,0 +1,17 @@
+ion-row {
+  margin-bottom: 5%;
+  &.counter-wrapper {
+    text-align: center;
+  }
+  ion-label {
+    font-size: 25px;
+  }
+}
+
+#game-over-button-wrapper, #general-counter-wrapper {
+  text-align: center;
+}
+
+#general-counter-wrapper {
+  margin-top: 1em;
+}

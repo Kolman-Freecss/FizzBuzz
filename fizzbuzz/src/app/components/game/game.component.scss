@@ -1,0 +1,42 @@
+ion-grid, ion-col {
+  height: 100%;
+}
+
+.mother-wrapper-players {
+  height: 80%;
+  .wrapper-players {
+      border: 1px solid white;
+      ion-row {
+        margin-bottom: 5%;
+        &.counter-wrapper {
+          text-align: center;
+        }
+        ion-label {
+          font-size: 25px;
+        }
+      }
+  }
+}
+
+#game-over-button-wrapper, #general-counter-wrapper {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#general-counter-wrapper {
+  height: 5%;
+}
+
+@keyframes timeLeftDifficult {
+  0%   {background-color:white; font-size: 25px}
+  50%  {background-color:red; font-size: 35px}
+  100% {background-color:white; font-size: 25px}
+}
+
+#time-left-label {
+  color: black;
+  animation-name: timeLeftDifficult;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
